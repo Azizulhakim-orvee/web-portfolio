@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+h1{
+    font-size:50px;
+}
+
+.no{
+    color: orange;
+}
+
+.half-width{
+    width:30%;
+    float:left;
+    margin-left:5%;
+    padding:5%;
+}
+
+.half-width img{
+    width:80%;
+}
+.top-banner{
+    background-image: url("Backgorund/top-banner.png");
+    background-repeat: no-repeat;
+    
+}
+section{
+    height:650px;
+}
+
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(172, 171, 171), rgb(137, 137, 190));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color:rgb(22, 24, 21);
+    font-weight: 700;
+}
+
+.dream{
+    background-image:url("Backgorund/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.single{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 40%;
+    background-color: white;
+}
+
+.experience{
+    background-image:url("Backgorund/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: 0pt;
+    background-position: left;
+    
+    
+}
+
+#full{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, red, black);
+    border-image-slice: 1;
+
+}
+
+#half{
+        border-left: 7px solid;
+        border-image: linear-gradient(180deg, black, red);
+        border-image-slice: 1;
+    
+}
+
+footer p{
+    text-align: center;
+}
+
+
